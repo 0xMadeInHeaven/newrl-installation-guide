@@ -17,7 +17,7 @@ apt install git
 ```
  git clone https://github.com/git/git
 ```
-##Deadsnakes repo yüklüyoruz
+## Deadsnakes repo yüklüyoruz
 
 ```
 sudo apt install software-properties-common -y
