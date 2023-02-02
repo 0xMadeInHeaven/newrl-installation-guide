@@ -25,20 +25,15 @@ sudo apt install software-properties-common -y
 ```
 sudo add-apt-repository ppa:deadsnakes/ppa
 ```
-## Python3.10  yüklüyoruz
+## Python3.9  yüklüyoruz
 ```
-sudo apt update && sudo apt install python3.10-venv
+sudo apt install python3.9
+sudo apt install python3.9-venv
+sudo apt install python3-venv python3-pip
+sudo mkdir newrl-venv
+cd newrl-venv
+python3.9 -m venv newrl-venv
 ```
-
-## Python3 Pip ve venv yüklüyoruz  
-```
-sudo apt update && sudo apt install python3.10-venv
-```
-```
-python3 get-pip.py
-```
-
-
 ## Kurulum
 ```
 git clone https://github.com/newrlfoundation/newrl.git
