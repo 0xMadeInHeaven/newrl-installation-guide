@@ -25,14 +25,11 @@ sudo apt install software-properties-common -y
 ```
 sudo add-apt-repository ppa:deadsnakes/ppa
 ```
-## Python3.9  yüklüyoruz
+## Python3.9 ve pip  yüklüyoruz
 ```
 sudo apt install python3.9
 sudo apt install python3.9-venv
 sudo apt install python3-venv python3-pip
-sudo mkdir newrl-venv
-cd newrl-venv
-python3.9 -m venv newrl-venv
 ```
 ## Kurulum
 ```
