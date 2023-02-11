@@ -17,14 +17,7 @@ apt install git
 ```
  git clone https://github.com/git/git
 ```
-## Deadsnakes repo yüklüyoruz
 
-```
-sudo apt install software-properties-common -y
-```
-```
-sudo add-apt-repository ppa:deadsnakes/ppa
-```
 ## Python3.9 ve pip  yüklüyoruz
 ```
 sudo apt install python3.9
